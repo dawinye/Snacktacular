@@ -349,7 +349,11 @@
                     </view>
                     <toolbarItems>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="MIa-uJ-faG"/>
-                        <barButtonItem title="Look Up Place" id="2tv-iX-JxF"/>
+                        <barButtonItem title="Look Up Place" id="2tv-iX-JxF">
+                            <connections>
+                                <action selector="lookUpPlacePressed:" destination="L7d-5i-Cie" id="YyE-jd-XVs"/>
+                            </connections>
+                        </barButtonItem>
                     </toolbarItems>
                     <navigationItem key="navigationItem" leftItemsSupplementBackButton="YES" id="R1z-zr-Kjm">
                         <barButtonItem key="leftBarButtonItem" title="Cancel" id="S5P-gk-K1R">
