@@ -24,6 +24,7 @@ class SpotDetailViewController: UIViewController {
     let regionDistance: CLLocationDistance = 750 // 750 meters or about 1/2 a mile
     var locationManager: CLLocationManager!
     var currentLocation: CLLocation!
+    var nothing = 0
     
     
     override func viewDidLoad() {
